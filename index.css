@@ -43,18 +43,21 @@ body {
 
 .todo__list {
     display: flex;
-    width: 100%;
+    width: 70rem;
+    margin-top: 2rem;
+    margin-left: 30rem;
+    background-color: rgb(145 7 145 / 24%);
     flex-direction: column;
     gap: 10px;
 }
 
 .todo__item{
     display: flex;
-    width: 50%;
-    height: 60px;
+    width: 70rem;
+    height: 7rem;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 2.5rem;
     box-shadow: 1px 1px 5px var(--secondary-color);
 }
 .todo__item > div {
@@ -89,19 +92,21 @@ body {
 .todo__new-item{
     display: flex;
     background-color: #7179e5;
-    width: 100%;
-    height: 70px;
+    width: 70rem;
+    height: 7rem;
     justify-content: space-evenly;
-    padding: 10px 0;
+    align-items: center;
+    padding: 3rem 0;
     box-shadow: 1px 1px 5px var(--secondary-color);
-    margin: 10px;
+    margin-top: 2rem;
+    margin-left: 30rem;
     font: inherit;
 }
 
 .todo__new-item > input{
     background-color: #7179e5;
     border: none;
-    width: 80%;
+    width: 43rem;
     outline: none;
     font: inherit;
 }

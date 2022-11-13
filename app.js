@@ -56,7 +56,6 @@ const atualizarItem = (indice) => {
 }
 const clickItem = (evento) => {
     const elemento = evento.target;
-    console.log(elemento.type);
     if (elemento.type === 'button'){
         const indice = elemento.dataset.indice;
         removerItem(indice);
